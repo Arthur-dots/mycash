@@ -1,0 +1,47 @@
+
+.jogo{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: lightsalmon;
+    font-size: xx-large;
+    font-family: 'Acme', sans-serif;
+    margin-top: 5%;
+    
+    
+}
+
+.J1{
+    display: flex;
+    justify-content: center;
+}
+
+.button-cancel{
+    display: flex;
+    justify-content: center;
+    font-family: 'Acme', sans-serif;
+    font-size: xx-large;
+    background-color:lightsalmon;
+    max-width: fit-content;
+    margin-top: 5%;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.player{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    
+}

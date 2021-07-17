@@ -1,0 +1,54 @@
+:host{
+    display: flex;
+    justify-content: center;
+    background: #1b38bd; /*fallback for old browser*/
+    background: -webkit-linear-gradient(to right, #00934E, #67cf43, #fadf1a); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00934E, #67cf43, #fadf1a); /* W3C, IE 10+ / Edge, Firefox 16+, Chrome 26+, Opera12+*/
+  }
+  
+  .example-card{
+    max-width: 400px;
+  }
+  
+   .example-forms{
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+   .example-full-width{
+    width: 100%;
+  }
+  
+   .logo-span{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+   img{
+    width: 300px;
+  }
+  
+   .container-button-enter{
+    display: flex;
+    justify-content: center;
+  
+  
+      button{
+        background-color: #00934E;
+      }
+  }
+  
+   .container-buttons{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+   .section-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
