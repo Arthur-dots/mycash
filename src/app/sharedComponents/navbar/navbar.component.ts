@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+    this.putEvents();
   }
+  putEvents(){
+    const menuList = document.getElementById('menu-list');
+    const botaoMenuMobile = document.getElementById('botão-menu-mobile');
 
+    botaoMenuMobile.addEventListener('click', function(){
+      menuList.classList.toggle('active');
+    });
+  }
+  logout(){
+    localStorage.removeItem('token');
+    this.router.navigate(['/login']);
+  }
 }

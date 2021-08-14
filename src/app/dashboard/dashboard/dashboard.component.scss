@@ -1,0 +1,44 @@
+.container-buttons{
+    float: right;
+    padding: 10px;
+
+    button{
+        margin: 10px;
+        color: aliceblue;
+    }
+
+
+    .button-receita{
+        background-color: #007BFF;
+
+    }
+
+    .button-despesa{
+        background-color: #C82333;
+    }
+
+    .container-despesas{
+        height: 50vh;
+        width: 100%;
+        overflow-y: scroll;
+
+        table{
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        table tr{
+            border: 1px solid #ccc;
+        }
+
+        
+
+    }
+
+    
+
+}
